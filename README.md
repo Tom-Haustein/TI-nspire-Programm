@@ -122,3 +122,8 @@ Die Programme aus Hilfsprogramme beinhalten hauptsächlich Programme die Variabl
 
 Um den Programmcode des Lageprogramms einzusehen, muss das tns Dokument einfach in der CAS Software geöffnet werden. Um ehrlich zu sein, blicke ich im Programmcode selbst nicht mehr durch, da dieser so viele Möglichkeiten und Funktionen beinhaltet. Zudem habe ich mir das Programmieren in dieser Programmiersprache selbst beigebracht, weshalb der Code an vielen Stellen unstrukturiert und ineffektiv ist. Aber was soll man sagen, es funktioniert. 
 
+Ich werde den Programmcode jetzt auch nicht noch einmal genau analysieren, da dies hier bei 900 Programmzeilen viel zu lang werden würde. 
+Wer aber etwas an meinem Programmcode ändern möchte, sodass er effektiver und strukturierter bzw. neue Funktionen erhält, kann dies im Rahmen der MIT-Lizenz gerne tun. Ich würde mich darüber sehr freuen.
+
+Ich hoffe das Programm hilft Einigen weiter ^^
+
