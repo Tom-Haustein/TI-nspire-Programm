@@ -12,19 +12,19 @@ Zum Lageprogramm zugehörig ist ein Dokument Hilfsprogramme. Ohne dieses funktio
 
 Hier sind alle möglichen Beziehungen, die das Lageprogramm verarbeiten kann:
 
-Punkt-Punkt
-Punkt-Gerade
-Gerade-Gerade
-Gerade-Ebene
-Ebene-Ebene
+Punkt-Punkt   
+Punkt-Gerade  
+Gerade-Gerade   
+Gerade-Ebene  
+Ebene-Ebene 
 
 Dabei ist egal, welches Element zuerst eingeben werden muss. Das heißt, dass es egal ist, ob man beispielsweise zuerst die Gerade und dann die Ebene eingibt oder anders herum.
 
 Für die Ebenen gibt es drei verschiedene Varianten, diese wären:
 
-Normalenform und Hessesche Normalenform
-Parameterform
-parameterfrei-/ Koordinatenform
+Normalenform und Hessesche Normalenform   
+Parameterform   
+parameterfrei-/ Koordinatenform   
 
 Die verschiedenen Eingaben der Ebenenformen sind in den folgenden Abschnitten nachzulesen.
 
