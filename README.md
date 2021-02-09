@@ -36,7 +36,7 @@ Im Nachfolgenden sollen die Eingabe der verschiedenen Elemente gezeigt werden:
 
 Die Eingabe eines Punktes erfolgt einfach über dessen Ortsvektor. Das heißt, ein Punkt P(x/y/z) wird in das Lageprogramm mit [x;y;z] oder [x,y,z] eingegeben. Welche dieser beiden Eingabemöglichkeiten genutzt wird, ist dabei egal. Möchte man beispielsweise den Abstand und die resultierende Gerade aus den Punkten P(1/2/3) und T(3/1/8) ermitteln, sieht die Eingabe wie folgt aus:
 
-Lage([1,2,3],[3,1,8]
+Lage([1,2,3],[3,1,8])
 
 Die Ausgabe des Programmes sieht dann so aus:
 
