@@ -8,6 +8,8 @@ Das Programm verfolgt die Idee eines Programmes für den TI nspire CAS, mit welc
 
 Zum Lageprogramm zugehörig ist ein Dokument Hilfsprogramme. Ohne dieses funktioniert das Lageprogramm nicht! 
 
+Falls ihr eine Anleitung braucht, wie man die Programme installiert und nutzt, klickt [hier](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Installationsanleitung.md)
+
 # Möglichkeiten
 
 Hier sind alle möglichen Beziehungen, die das Lageprogramm verarbeiten kann:
