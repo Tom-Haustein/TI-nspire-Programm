@@ -92,9 +92,11 @@ Diese Form der Eingabe ist vermutlich die einfachste. Für den Fall, dass der We
 
 Normalenform
 -
-Die Normalenform einer Ebene besteht aus einem Stützvektor und einem Richtungsvektor. Diese sieht wie folgt aus:
+Die Normalenform einer Ebene besteht aus einem Stützvektor und einem Normalenvektor. Diese sieht wie folgt aus:
 
 ![Normalenform_allgemein](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder/Normalenform_allgemein.jpg)
+
+([p1,p1,p3] beschreibt den Stützvektor und [n1,n2,n3] den Normalenvektor, die skalarmultipliziert werden)
 
 In diesem Fall ist die Eingabe in das Lageprogramm allerdings nicht so einfach, da der Taschenrechner ohne ein eigenes Programm (dotP) kein Skalarprodukt rechnen kann. Deshalb musste ich mir hier etwas anderes überlegen.
 
