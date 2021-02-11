@@ -1,6 +1,6 @@
 # Das Lage-Programm - ein multifunktionales Programm der linearen Algebra und Vektorrechnung auf dem TI nspire CAS
 
-Das Projekt befindet sich aktuell noch in der Entwicklung
+Bitte benutzt das Programm nur im Rahmen der MIT-Lizenz. Jede wirtschaftliche Nutzung des Programms ist ausdrücklich untersagt. Ich hafte NICHT für falsche Ergebnisse, die Nutzung ist auf eigene Gefahr (aber bisher sind bei mir in einem Jahr Nutzung alle Ergebnisse richtig gewesen). Bitte achtet auch darauf, dass in Arbeiten meist Lösungsansätze oder Rechenwege gefordert werden und das reine Ergebnis oft keine volle Punktzahl gibt. Nutzt das Programm am besten zum Überprüfen der eigenen Lösungen oder in Übungen.
 
 # Allgemeines
 
@@ -96,7 +96,7 @@ Die Normalenform einer Ebene besteht aus einem Stützvektor und einem Normalenve
 
 ![Normalenform_allgemein](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder/Normalenform_allgemein.jpg)
 
-([p1,p1,p3] beschreibt den Stützvektor und [n1,n2,n3] den Normalenvektor, die skalarmultipliziert werden)
+([p1,p1,p3] beschreibt den Stützvektor und [n1,n2,n3] den Normalenvektor, die skalarmultipliziert werden. Wird nun ein Punkt [x1,x2,x3] in die Gleichung eingesetzt und dieser erfüllt die Gleichung, so liegt er in der Ebene. Falls die Gleichung einen Widerspruch, beispielsweise 3=0, ergibt, so liegt er eingesetzte Punkt nicht in der Ebene)
 
 In diesem Fall ist die Eingabe in das Lageprogramm allerdings nicht so einfach, da der Taschenrechner ohne ein eigenes Programm (dotP) kein Skalarprodukt rechnen kann. Deshalb musste ich mir hier etwas anderes überlegen.
 
