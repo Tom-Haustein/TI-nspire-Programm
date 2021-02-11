@@ -107,13 +107,13 @@ Und die Ausgabe des Programmes für unsere Lagebeziehung zwischen der Ebene in N
 
 Somit sind nun alle Eingabemöglichkeiten des Lageprogramms erklärt. Das Lageprogramm besitzt folgende Ausgaben in Abhängigkeit der eingegeben der möglichen Beziehungen:
 
-Abstand
-Gerade zwischen zwei Punkten
-Schnittpunkt zweier Geraden
-Parallelität oder Windschiefe von Geraden zueinander
-Schnittwinkel zweier Geraden
-Schnittgerade zweier Ebenen
-Schnittwinkel zweier Ebenen
+Abstand   
+Gerade zwischen zwei Punkten    
+Schnittpunkt zweier Geraden   
+Parallelität oder Windschiefe von Geraden zueinander    
+Schnittwinkel zweier Geraden    
+Schnittgerade zweier Ebenen   
+Schnittwinkel zweier Ebenen   
 
 # Funktionsweise
 Dieser Teil beschäftigt sich nun nichtmehr mit der Eingabe sondern geht etwas auf die Funktionsweise ein. Allgemein umfasst das reine Lageprogramm rund 900 Programmzeilen. Das Dokument Hilfsprogramme umfasst noch einmal 4 Programme mit insgesamt fasst 800 Programmzeilen. 
