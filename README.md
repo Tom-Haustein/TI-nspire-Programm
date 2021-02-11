@@ -149,3 +149,4 @@ Wer aber etwas an meinem Programmcode ändern möchte, sodass er effektiver und 
 
 Ich hoffe das Programm hilft Einigen weiter ^^
 
+Guckt auch gerne bei anderen Projekten von mir vorbei, beispielsweise meinem Projekt zur [Entwicklung einer KI, die Verkehrsschilder erkennen kann](https://github.com/Tom-Haustein/GTSRB_Neural_Network)
