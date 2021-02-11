@@ -24,7 +24,7 @@ Für die Ebenen gibt es drei verschiedene Varianten, diese wären:
 
 Normalenform und Hessesche Normalenform   
 Parameterform   
-parameterfrei-/ Koordinatenform   
+Parameterfreie Form / Koordinatenform   
 
 Die verschiedenen Eingaben der Ebenenformen sind in den folgenden Abschnitten nachzulesen.
 
@@ -40,6 +40,8 @@ Lage([1,2,3],[3,1,8])
 
 Die Ausgabe des Programmes sieht dann so aus:
 
+![TR_Punkte](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder/TR_Punkte.JPG)
+
 Zwischen einem Punkt und einer Geraden oder einer Ebene kann der Abstand ermittelt werden.
 
 # Geraden
@@ -51,7 +53,10 @@ DABEI BESTEHT FREIE AUSWAHL DER VARIABLE DES PARAMETERS. Das heißt das alle Var
 Eine mögliche Eingabe für die Lage zwischen zwei Geraden könnte also so aussehen:
 
 Lage([1,2,4]+r[3,1,5],[3,1,9]+t*[2,5,1])
+
 Die Ausgabe des Programmes sieht dann so aus:
+
+![TR_Geraden](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder/TR_Geraden.JPG)
 
 Diese Art der Eingabe ist die einzige Möglichkeit der Eingabe für eine Gerade. So werden beispielsweise Geraden in Normalenform nicht vom Programm angenommen.
 
@@ -63,6 +68,7 @@ Parameterform
 -
 Eine Ebene in Parameterform besteht aus Stützvektor und 2 Spannvektoren, die jeweils mit einem eigenen Parameter multipliziert werden. Hier sieht man noch einmal, wie eine Ebene in Parameterform aussieht:
 
+![Parameterform_Beispiel](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder/Parameterform_Beispiel.png)
 
 Die Eingabe ist sehr ähnlich, der einer Geraden, nur zusätzlich mit einem weiteren Spannvektor und dem dazugehörigen Parameter. Dementsprechend sieht die Eingabe an einem Beispiel wie folgt aus:
 
@@ -80,12 +86,15 @@ Lage([2,4,1],3x+7y-2z=10)
 
 Das Ergebnis des Programmes sieht dann wie folgt aus:
 
+![TR_Koordinatenebene](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder/TR_Koordinatenebene.JPG)
 
 Diese Form der Eingabe ist vermutlich die einfachste. Für den Fall, dass der Wert vor dem X-Wert gleich null oder einem der anderen Werte, so ist es egal, ob man die 0 mit dem X multipliziert oder diesen gleich ganz weglässt. Es gehen also 0*x+3*y+5*z=10* oder auch 3*y+5*z=10 als Eingabe. Somit geht auch z=0 als Ebenenform.
 
 Normalenform
 -
 Die Normalenform einer Ebene besteht aus einem Stützvektor und einem Richtungsvektor. Diese sieht wie folgt aus:
+
+![Normalenform_allgemein](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder/Normalenform_allgemein.jpg)
 
 In diesem Fall ist die Eingabe in das Lageprogramm allerdings nicht so einfach, da der Taschenrechner ohne ein eigenes Programm (dotP) kein Skalarprodukt rechnen kann. Deshalb musste ich mir hier etwas anderes überlegen.
 
@@ -96,14 +105,23 @@ Lage(nf,[1,2,3]+r*[4,5,6])
 Ob das nf dabei an erster oder zweiter Stelle steht, ist dabei egal.
 Die Antwort des Programmes auf die Eingabe sieht dann wie folgt aus:
 
+![Abfrage_stützvektor](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder/Abfrage_st%C3%BCtzvektor.JPG)
 
 Unsere Ebene in Normalenform sieht nun beispielsweise so aus:
 
-Das heißt unser Stützvektor ist [3,1,-1] und der Richtungsvektor [0,3,2]. Auf die Abfrage des Stützvektors wird also nun folgendes eingegeben:
+![Normalenform_beispiel](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder/Normalenform_Beispiel.png)
 
-Und auf die Abfrage des Richtungsvektors wird nun aufgrund unseres Richtungsvektors folgendes eingegeben:
+Das heißt unser Stützvektor ist [3,1,-1] und der Normalenvektor [0,3,2]. Auf die Abfrage des Stützvektors wird also nun folgendes eingegeben:
+
+![Stützvektor_Eingabe](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder/St%C3%BCtzvektor_Eingabe.JPG)
+
+Und auf die Abfrage des Normalenvektors wird nun aufgrund unseres Normalenvektors folgendes eingegeben:
+
+![Normalenvektor_Eingabe](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder/Normalvektor_Eingabe.JPG)
 
 Und die Ausgabe des Programmes für unsere Lagebeziehung zwischen der Ebene in Normalenform und dem Punkt P ist:
+
+![TR_Koordinatenebene](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder/TR_Normalenebene.JPG)
 
 Somit sind nun alle Eingabemöglichkeiten des Lageprogramms erklärt. Das Lageprogramm besitzt folgende Ausgaben in Abhängigkeit der eingegeben der möglichen Beziehungen:
 
