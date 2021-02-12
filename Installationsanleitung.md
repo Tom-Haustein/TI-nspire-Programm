@@ -52,7 +52,7 @@ Damit sollte sich diese Übersicht öffnen:
 
 Drückt nun auf euren Nummern-Tasten die Zahl 6 ein oder geht mit dem Curser auf die 6 mit dem Bücher-Zeichen. Dort findet ihr nun alle installierten Programme. Diese sind aber noch etwas versteckt. Um ein Programm aufzurufen müsst ihr erst auf den Oberbegriff gehen, damit sich alle Programme unter diesem Oberbegriff öffnen. Für Das Lage-Programm ist dieser Oberbegriff einfach "Lage". Drückt darauf, dann sollte sich darunter nochmal der Name "Lage" in kleiner öffnen:
 
-![Lage](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder_Installation/IMG_20210212_201907.jpg)
+![Lage_übersicht](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder_Installation/IMG_20210212_201907.jpg)
 
 Um das Lageprogramm nun zu nutzen drückt auf das kleinere Lage und ihr solltet wieder ins Rechenmenü mit folgender Anzeige gelangen:
 
