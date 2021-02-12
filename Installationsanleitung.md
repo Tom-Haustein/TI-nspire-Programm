@@ -16,17 +16,25 @@ Nachdem ihr die .exe-Datei heruntergeladen habt, öffnet diese und schließt die
 
 Das ganze sollte nun so aussehen:
 
+![allgemein](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder_Installation/allgemein.JPG)
+
 Nun sind alle Vorbereitungen abgeschlossen und die Installation der Programme kann beginnen.
 
 # Installation Programme
 
 Schließt nun euren Taschenrechner per USB-Kabel an euren PC an. Geht nun auf der linken Seite unter "Werkzeugpalette Dokumente" auf das gelbe Ordnersymbol:
 
+![Bib_symbol](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder_Installation/Bib_symbol.JPG)
+
 Nun solltet ihr unter "Angeschlossene TI-Nspire CX Handhelds" euren angeschlossenen Taschenrechner sehen. Das sieht dann bei mir beispielsweise so aus:
+
+![angeschlossener_Taschenrechner](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder_Installation/angeschlossener_Taschenrechner.JPG)
 
 Klickt nun erst doppelt auf euren Taschenrechnernamen und anschließend doppelt auf den Ordner "MyLib". Das ist der Ordner in den die Taschenrechnerprogramme gelangen müssen. Wenn diese in einen anderen Ordner gezogen werden, können sie NICHT ordnungsgemäß genutzt werden. 
 
-Öffnet nun ihm Fenster "Computer" darüber den Pfad, an dem sich eure heruntergeladenen Programme befinden. Wenn ihr diese gefunden habt, zieht sie per Maus in den Ordner MyLib, den ihr ja bereits darunter geöffnet habt. Das sollte dann so aaussehen:
+Öffnet nun ihm Fenster "Computer" darüber den Pfad, an dem sich eure heruntergeladenen Programme befinden. Wenn ihr diese gefunden habt, zieht sie per Maus in den Ordner MyLib, den ihr ja bereits darunter geöffnet habt. Das sollte nach dem Kopieren dann so aussehen:
+
+![MyLib](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder_Installation/MyLib.JPG)
 
 Nun solltet ihr auch eurem Taschenrechner eine Benachrichtigung erhalten haben, dass die Programme auf euren Rechner gezogen wurden. Ihr könnt diesen nun von eurem PC abziehen. Die nachfolgende Installation findet nur noch am Taschenrechner statt. Der PC wird dafür nicht mehr gebraucht.
 
@@ -36,11 +44,19 @@ Geht nun auf eurem Taschenrechner auf die rechte Seite unter "Dokumente". Dort f
 
 Um die installierten Programme zu nutzen, müsst ihr im Rechenmenü eine bestimmten Tastenreihenfolge benutzen. Klickt auf das Buch-Symbol unter der del-Taste. Dieses könnt ihr auch hier sehen:
 
+![test](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder_Installation/IMG_20210212_2028392.jpg)
+
 Damit sollte sich diese Übersicht öffnen:
+
+![Bild_Übersicht](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder_Installation/IMG_20210212_201738.jpg)
 
 Drückt nun auf euren Nummern-Tasten die Zahl 6 ein oder geht mit dem Curser auf die 6 mit dem Bücher-Zeichen. Dort findet ihr nun alle installierten Programme. Diese sind aber noch etwas versteckt. Um ein Programm aufzurufen müsst ihr erst auf den Oberbegriff gehen, damit sich alle Programme unter diesem Oberbegriff öffnen. Für Das Lage-Programm ist dieser Oberbegriff einfach "Lage". Drückt darauf, dann sollte sich darunter nochmal der Name "Lage" in kleiner öffnen:
 
+![Lage](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder_Installation/IMG_20210212_201907.jpg)
+
 Um das Lageprogramm nun zu nutzen drückt auf das kleinere Lage und ihr solltet wieder ins Rechenmenü mit folgender Anzeige gelangen:
+
+![Lage_angewendet](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder_Installation/IMG_20210212_202009.jpg)
 
 Nun könnt ihr dahinter eure zwei Argumente eingeben, die ich diesem Projekt relativ ausführlich besprochen habe. Falls ihr das Lage-Programm nun erneut nutzen wollt, müsst ihr erst wieder über die Buch-Taste und dann die 6 mit dem Buch gehen oder ihr kopiert die vorherige Eingabe des Lageprogramms herunter und ändert eure Argumente.
 
