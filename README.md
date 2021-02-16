@@ -77,7 +77,11 @@ Die Normalenform einer Geraden entspricht der einer Ebene in Normalenform (Erlä
 
 ([x,y]-[a,b])°[c,d]=0
 
-Dabei beschreibt [a,b] den Stützvektor der Ebene und [c,d] den Normalenvektor der Ebene. Für die Eingabe ins Lageprogramm muss, wie bei der Normalenform der Ebene, nf in das Lageprogramm eingegeben werden. Bei der Abfrage von Stütz- und Normalenvektor muss dann lediglich ein zweidimensionaler Vektor eingegeben werden, dann erkennt das Programm automatisch die Gerade. 
+Dabei beschreibt [a,b] den Stützvektor der Ebene und [c,d] den Normalenvektor der Ebene. Ein Beispiel für eine Gerade in Normalenform sieht so aus:
+
+![Gerade_Normalenform](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder/Gerade_Normalenform.jpg)
+
+Für die Eingabe ins Lageprogramm muss, wie bei der Normalenform der Ebene, nf in das Lageprogramm eingegeben werden. Bei der Abfrage von Stütz- und Normalenvektor muss dann lediglich ein zweidimensionaler Vektor eingegeben werden, dann erkennt das Programm automatisch die Gerade. 
 
 # Ebenen
 
