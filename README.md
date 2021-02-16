@@ -22,7 +22,7 @@ Ebene-Ebene
 
 Dabei ist egal, welches Element zuerst eingeben werden muss. Das heißt, dass es egal ist, ob man beispielsweise zuerst die Gerade und dann die Ebene eingibt oder anders herum.
 
-Für die Ebenen gibt es drei verschiedene Varianten, diese wären:
+Für die Ebenen und die Gerade gibt es drei jeweils verschiedene Varianten, diese wären:
 
 Normalenform und Hessesche Normalenform   
 Parameterform   
