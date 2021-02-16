@@ -62,6 +62,7 @@ Die Ausgabe des Programmes sieht dann so aus:
 ![TR_Geraden](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder/TR_Geraden.JPG)
 
 Für Geraden gibt es ähnlich wie bei den Ebenen mehrere Formen der Eingabe. Diese sind zusätzlich zur oben beschriebenen Parametereingabe die Normalenform und die Koordinatenform.
+
 Koordinatenform
 -
 Die allgemeine Koordinatenform einer Gerade entspricht einer Funktion 1.Grades der Grundgleichung y=mx+n. Genau so muss die Gerade auch in das Lageprogramm eingegeben werden. Hier ein Beispiel:
@@ -69,6 +70,7 @@ Die allgemeine Koordinatenform einer Gerade entspricht einer Funktion 1.Grades d
 Lage(y=3x-2,y=4x+7)
 
 Dabei wird der Schnittpunkt oder bei Parallelität der Abstand der beiden Geraden ausgegeben.
+
 Normalenform
 -
 Die Normalenform einer Geraden entspricht der einer Ebene in Normalenform (Erläuterung unten bei der Ebene), nur mit zweidimensionalen Vektoren. Das heißt eine Gerade in Normalenform hat die Gleichung:
