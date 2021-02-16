@@ -65,7 +65,7 @@ Für Geraden gibt es ähnlich wie bei den Ebenen mehrere Formen der Eingabe. Die
 
 Koordinatenform
 -
-Die allgemeine Koordinatenform einer Gerade entspricht einer Funktion 1.Grades der Grundgleichung y=mx+n. Genau so muss die Gerade auch in das Lageprogramm eingegeben werden. Hier ein Beispiel:
+Die allgemeine Koordinatenform einer Gerade entspricht einer Funktion 1.Grades der Grundgleichung y=mx+n. Dabei ist m der Anstieg und n der Durchgang durch die Y-Achse. Genau so muss die Gerade auch in das Lageprogramm eingegeben werden. Hier ein Beispiel:
 
 Lage(y=3x-2,y=4x+7)
 
