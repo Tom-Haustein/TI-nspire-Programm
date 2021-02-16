@@ -47,11 +47,12 @@ Die Ausgabe des Programmes sieht dann so aus:
 Zwischen einem Punkt und einer Geraden oder einer Ebene kann der Abstand ermittelt werden.
 
 # Geraden
-
+Parameterform
+-
 Geraden bestehen grundsätzlich aus Stützvektor, Parameter und Richtungvektor in der Form:
 
 Die Eingabe des Stützvektors erfolgt ähnlich dem eines Punktes. Dazu wird ein Parameter mal den Richtungsvektor addiert. 
-DABEI BESTEHT FREIE AUSWAHL DER VARIABLE DES PARAMETERS. Das heißt das alle Variablen von a bis z können als Paramtername genutzt werden. Gleiches gilt im übrigen für die Ebene in Parameterform. So entspricht beispielsweise die Gerade [1,2,5]+r*[2,6,1] exakt der Geraden [1,2,5]+s*[2,6,1] oder [1,2,5]+t*[2,6,1] (bei einer Geraden mit Stützvektor [1,2,5] und Richtungsvektor [2,6,1]). 
+DABEI BESTEHT FREIE AUSWAHL DER VARIABLE DES PARAMETERS. Das heißt das alle Variablen von a bis z können als Parametername genutzt werden. Gleiches gilt im übrigen für die Ebene in Parameterform. So entspricht beispielsweise die Gerade [1,2,5]+r*[2,6,1] exakt der Geraden [1,2,5]+s*[2,6,1] oder [1,2,5]+t*[2,6,1] (bei einer Geraden mit Stützvektor [1,2,5] und Richtungsvektor [2,6,1]). 
 Eine mögliche Eingabe für die Lage zwischen zwei Geraden könnte also so aussehen:
 
 Lage([1,2,4]+r[3,1,5],[3,1,9]+t*[2,5,1])
@@ -60,7 +61,21 @@ Die Ausgabe des Programmes sieht dann so aus:
 
 ![TR_Geraden](https://github.com/Tom-Haustein/TI-nspire-Programm/blob/main/Bilder/TR_Geraden.JPG)
 
-Diese Art der Eingabe ist die einzige Möglichkeit der Eingabe für eine Gerade. So werden beispielsweise Geraden in Normalenform nicht vom Programm angenommen.
+Für Geraden gibt es ähnlich wie bei den Ebenen mehrere Formen der Eingabe. Diese sind zusätzlich zur oben beschriebenen Parametereingabe die Normalenform und die Koordinatenform.
+Koordinatenform
+-
+Die allgemeine Koordinatenform einer Gerade entspricht einer Funktion 1.Grades der Grundgleichung y=mx+n. Genau so muss die Gerade auch in das Lageprogramm eingegeben werden. Hier ein Beispiel:
+
+Lage(y=3x-2,y=4x+7)
+
+Dabei wird der Schnittpunkt oder bei Parallelität der Abstand der beiden Geraden ausgegeben.
+Normalenform
+-
+Die Normalenform einer Geraden entspricht der einer Ebene in Normalenform (Erläuterung unten bei der Ebene), nur mit zweidimensionalen Vektoren. Das heißt eine Gerade in Normalenform hat die Gleichung:
+
+([x,y]-[a,b])°[c,d]=0
+
+Dabei beschreibt [a,b] den Stützvektor der Ebene und [c,d] den Normalenvektor der Ebene. Für die Eingabe ins Lageprogramm muss, wie bei der Normalenform der Ebene, nf in das Lageprogramm eingegeben werden. Bei der Abfrage von Stütz- und Normalenvektor muss dann lediglich ein zweidimensionaler Vektor eingegeben werden, dann erkennt das Programm automatisch die Gerade. 
 
 # Ebenen
 
@@ -138,7 +153,7 @@ Schnittgerade zweier Ebenen
 Schnittwinkel zweier Ebenen   
 
 # Funktionsweise
-Dieser Teil beschäftigt sich nun nichtmehr mit der Eingabe sondern geht etwas auf die Funktionsweise ein. Allgemein umfasst das reine Lageprogramm rund 900 Programmzeilen. Das Dokument Hilfsprogramme umfasst noch einmal 4 Programme mit insgesamt fasst 800 Programmzeilen. 
+Dieser Teil beschäftigt sich nun nichtmehr mit der Eingabe sondern geht etwas auf die Funktionsweise ein. Allgemein umfasst das reine Lageprogramm rund 1000 Programmzeilen. Das Dokument Hilfsprogramme umfasst noch einmal 5 Programme mit insgesamt fasst 850 Programmzeilen. 
 
 Die Programme aus Hilfsprogramme beinhalten hauptsächlich Programme die Variablennamen aus Geraden oder Ebenen herausfinden. Im Lageprogramm selbst wird mehrmals auf diese Programme als Funktions verwiesen, sodass diese nicht mehrmals  in das Programm selbst kopiert werden müssen. Dadurch wird der Programmcode wesentlich kürzer und würde ansonsten mehrere Tausend Programmzeilen umfassen. 
 
